@@ -1,3 +1,6 @@
+Original App Design Project - README Template
+===
+
 # MealWise
 
 
@@ -41,9 +44,8 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 
 ### 2. Screen Archetypes
 
-* Login Screen
+* Login and Registration Screen
    * Users can login.
-* Registration Screen
    * Users can register new accounts.
 * Stream Screen
    * Users can see all the posts.
@@ -70,11 +72,8 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 * Profile Screen (Optional)
 
 **Flow Navigation** (Screen to Screen)
-* Login Screen
-  * Registration Screen
+* Login and Registration Screen
   * Recipe Screen 1
-* Registration Screen
-  * Login Screen
 * Stream Screen
   * Creation Screen
 * Recipes Screen 1
@@ -89,8 +88,12 @@ MealWise is an app where users can find recipes, create their own recipes, and p
   * Profile Screen (Optional)
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+<img src="https://i.imgur.com/ZEjGAFA.jpg" width=600>
+
+
+
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
@@ -98,9 +101,57 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 
 ## Schema 
 [This section will be completed in Unit 9]
+## Schema 
 ### Models
-[Add table of models]
+#### User
+| Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user (default field) |
+   | username        | String| name of the user |
+   | password |String | password of the user's account
+   | image         | File     | profile photo of the user | 
+   
+#### Post
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | author        | Pointer to User| image author |
+   | image         | File     | image that user posts |
+   | caption       | String   | image caption by author |
+   | createdAt     | DateTime | date when post is created (default field) |
+   
+#### Recipe
+   |  Property  |  Type    |  Description     |
+   |  --------  |  -----   |  --------------- |
+   | objectId      | String   | unique id for the recipe (default field) |
+   |  title     |  String  |  name of the recipe  |
+   |  image     |  File    |  picture of the dishes|
+   |  healthscore | Number | healthscore of the recipe|
+   | dairyfree    |  Boolean | whether the recipe is dairyfree
+   | glutenfree   |  Boolean | whether the recipe is glutenfree
+   
+
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+* Home Feed Screen
+    * (Read/GET) Query all posts where user is author)
+    * (Create/POST) Create a new comment on a post
+    ```swift:
+    let query = PFQuery(className:"Post")
+    query.whereKey("author", equalTo: currentUser)
+    query.order(byDescending: "createdAt")
+    query.includeKeys(["author", "comments", "comments.author"])
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error { 
+          print(error.localizedDescription)
+       }else if let posts = posts {
+          print("Successfully retrieved \(posts.count) posts.")
+      // TODO: Do something with posts...
+       }
+    }
+    ```
+* Create Post Screen
+    * (Create/POST)Create a new post object

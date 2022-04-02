@@ -100,8 +100,6 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
-## Schema 
 ### Models
 #### User
 | Property      | Type     | Description |

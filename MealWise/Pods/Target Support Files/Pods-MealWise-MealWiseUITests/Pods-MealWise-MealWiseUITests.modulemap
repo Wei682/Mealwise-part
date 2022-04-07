@@ -1,0 +1,6 @@
+framework module Pods_MealWise_MealWiseUITests {
+  umbrella header "Pods-MealWise-MealWiseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

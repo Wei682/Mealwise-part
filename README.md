@@ -28,9 +28,9 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 
 - [x] Users can register new accounts.
 - [x] Users can login.
-- [x] User sees app icon in home screen and styled launch screen.
-- [x] User can log out.
-- [x] User stays logged in across restarts.
+- [x] Users can see app icon in Home Screen and styled Launch Screen.
+- [x] Users can log out.
+- [x] Users can stay logged in across restarts.
 
 <img src="http://g.recordit.co/0Rfs2gY4Fa.gif" width = 250><br>
 

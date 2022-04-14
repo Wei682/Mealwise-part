@@ -1,6 +1,3 @@
-Original App Design Project - README Template
-===
-
 # MealWise
 
 
@@ -29,9 +26,15 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 
 **Required Must-have Stories**
 
+- [x] Users can register new accounts.
+- [x] Users can login.
+- [x] Users can see app icon in Home Screen and styled Launch Screen.
+- [x] Users can log out.
+- [x] Users can stay logged in across restarts.
+
+<img src="http://g.recordit.co/0Rfs2gY4Fa.gif" width = 250><br>
+
 * Users can see recommended recipes.
-* Users can register new accounts.
-* Users can login.
 * Users can post photos.
 * Users can see all the posts.
 
@@ -153,3 +156,5 @@ MealWise is an app where users can find recipes, create their own recipes, and p
     ```
 * Create Post Screen
     * (Create/POST)Create a new post object
+
+

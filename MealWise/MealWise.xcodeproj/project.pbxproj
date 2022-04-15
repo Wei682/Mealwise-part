@@ -10,6 +10,8 @@
 		3E5CE74E81BD20C4F57808CB /* Pods_MealWise_MealWiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A371AB9A42124E6DEB5E14C /* Pods_MealWise_MealWiseUITests.framework */; };
 		92A658CA385209B672CF794E /* Pods_MealWise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F0AE3FD4C891633687CE87 /* Pods_MealWise.framework */; };
 		93D77F042FC6526F07AA39F7 /* Pods_MealWiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171470EC1A426087E96D57F7 /* Pods_MealWiseTests.framework */; };
+		A66300302809235B00324B7B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663002F2809235B00324B7B /* PostCell.swift */; };
+		A66300322809369900324B7B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66300312809369900324B7B /* CommentCell.swift */; };
 		B6E8C30E2807B1CC00C6BE81 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8C30D2807B1CC00C6BE81 /* CameraViewController.swift */; };
 		B6F8534827FE9A27005821BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F8534727FE9A27005821BB /* AppDelegate.swift */; };
 		B6F8534A27FE9A27005821BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F8534927FE9A27005821BB /* SceneDelegate.swift */; };
@@ -49,6 +51,8 @@
 		42F0AE3FD4C891633687CE87 /* Pods_MealWise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MealWise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E87F4EE542155CA2F83B66E /* Pods-MealWise-MealWiseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealWise-MealWiseUITests.release.xcconfig"; path = "Target Support Files/Pods-MealWise-MealWiseUITests/Pods-MealWise-MealWiseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		73EC922BEE3F387056FE2F3E /* Pods-MealWise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealWise.release.xcconfig"; path = "Target Support Files/Pods-MealWise/Pods-MealWise.release.xcconfig"; sourceTree = "<group>"; };
+		A663002F2809235B00324B7B /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		A66300312809369900324B7B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		B6E8C30D2807B1CC00C6BE81 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		B6F8534427FE9A27005821BB /* MealWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F8534727FE9A27005821BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 				B6F8535027FE9A29005821BB /* Assets.xcassets */,
 				B6F8535227FE9A29005821BB /* LaunchScreen.storyboard */,
 				B6F8535527FE9A29005821BB /* Info.plist */,
+				A663002F2809235B00324B7B /* PostCell.swift */,
+				A66300312809369900324B7B /* CommentCell.swift */,
 			);
 			path = MealWise;
 			sourceTree = "<group>";
@@ -417,6 +423,8 @@
 				B6F8534827FE9A27005821BB /* AppDelegate.swift in Sources */,
 				B6F8537A27FEB64D005821BB /* FeedViewController.swift in Sources */,
 				B6F8534A27FE9A27005821BB /* SceneDelegate.swift in Sources */,
+				A66300302809235B00324B7B /* PostCell.swift in Sources */,
+				A66300322809369900324B7B /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

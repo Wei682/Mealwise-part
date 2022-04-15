@@ -23,6 +23,8 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
+<img src="http://g.recordit.co/0Rfs2gY4Fa.gif" width = 250><br>
+<img src="http://g.recordit.co/HXCA6Pz6V2.gif" width = 250><br>
 
 **Required Must-have Stories**
 
@@ -31,16 +33,17 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 - [x] Users can see app icon in Home Screen and styled Launch Screen.
 - [x] Users can log out.
 - [x] Users can stay logged in across restarts.
-
-<img src="http://g.recordit.co/0Rfs2gY4Fa.gif" width = 250><br>
-
+- [x] Users can take a photo, add a caption, and post them to the server.
+- [x] Users can see all the posts.
 * Users can see recommended recipes.
-* Users can post photos.
-* Users can see all the posts.
+
 
 **Optional Nice-to-have Stories**
+- [x] Users can add new comments
+- [x] Users can view comments on a post
+- [x] Keyboard will dismiss whenever users finish inputting 
+- [x] Comment input box will be cleared and dismiss whenever users finish posting or closing keyboard
 * Users can create their own recipes.
-* Users can like and comment on a post.
 * Users can search for recipes.
 * Users can see their profile page with their photos.
 * Users can go to the setting page to choose their preferences.

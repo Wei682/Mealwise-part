@@ -8,6 +8,7 @@ target 'MealWise' do
   # Pods for MealWise
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
 
   target 'MealWiseTests' do
     inherit! :search_paths

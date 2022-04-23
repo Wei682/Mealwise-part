@@ -95,7 +95,7 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 
 ## Wireframes
 
-<img src="https://i.imgur.com/ZEjGAFA.jpg" width=600>
+<img src="https://github.com/BugFarmers/MealWise/blob/main/Wireframe2.jpeg" width=600>
 
 
 

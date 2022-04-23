@@ -23,6 +23,7 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
+<img src="http://g.recordit.co/zv4sMLGBsq.gif" width = 250><br>
 <img src="http://g.recordit.co/0Rfs2gY4Fa.gif" width = 250><br>
 <img src="http://g.recordit.co/HXCA6Pz6V2.gif" width = 250><br>
 

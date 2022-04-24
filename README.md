@@ -24,6 +24,7 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 
 ### 1. User Stories (Required and Optional)
 <img src="http://g.recordit.co/zv4sMLGBsq.gif" width = 250><br>
+<img src="http://g.recordit.co/zv4sMLGBsq.gif" width = 250><br>
 <img src="http://g.recordit.co/0Rfs2gY4Fa.gif" width = 250><br>
 <img src="http://g.recordit.co/HXCA6Pz6V2.gif" width = 250><br>
 
@@ -41,6 +42,7 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 **Optional Nice-to-have Stories**
 - [x] Users can add new comments
 - [x] Users can view comments on a post
+- [x] Users can use the random food generator.
 - [x] Keyboard will dismiss whenever users finish inputting 
 - [x] Comment input box will be cleared and dismiss whenever users finish posting or closing keyboard
 * Users can see recommended recipes.
@@ -57,11 +59,13 @@ MealWise is an app where users can find recipes, create their own recipes, and p
 * Stream Screen
    * Users can see all the posts.
    * Users can like and comment on a post. (optional)
+* Creation Screen
+   * Users can post photos.
+* Random Food Screen
+   * Users can use the random food generator.
 * Recipes Screen 1 (Optional)
    * Users can see recommended recipes.
    * Users can search for recipes.
-* Creation Screen
-   * Users can post photos.
 * Recipes Screen 2 (Optional)
    * Users can create their own recipes.
 * Profile Screen (Optional)
@@ -83,10 +87,13 @@ MealWise is an app where users can find recipes, create their own recipes, and p
   * Stream Screen
 * Stream Screen
   * Creation Screen
-* Recipes Screen 1 (Optional)
-  * Recipe Screen 2 (Optional)
+  * Random Food Screen
 * Creation Screen
   * Stream Screen
+* Random Food Screen
+  * Stream Scren
+* Recipes Screen 1 (Optional)
+  * Recipe Screen 2 (Optional)
 * Recipes Screen 2 (Optional)
   * Recipe Screen 1 (Optional)
 * Profile Screen (Optional)

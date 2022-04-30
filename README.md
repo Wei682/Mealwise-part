@@ -103,7 +103,7 @@ MealWise is an application that provides a platform for people to decide what to
 
 ## Wireframes
 
-<img src="https://github.com/BugFarmers/MealWise/blob/main/Wireframe2.jpeg" width=600>
+<img src="https://github.com/BugFarmers/MealWise/blob/main/Wireframe.jpeg" width=600>
 
 
 

@@ -12,7 +12,6 @@
 		93D77F042FC6526F07AA39F7 /* Pods_MealWiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171470EC1A426087E96D57F7 /* Pods_MealWiseTests.framework */; };
 		A66300302809235B00324B7B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663002F2809235B00324B7B /* PostCell.swift */; };
 		A66300322809369900324B7B /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66300312809369900324B7B /* CommentCell.swift */; };
-		B624C60B281510AD00252720 /* RecipeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624C60A281510AD00252720 /* RecipeAPI.swift */; };
 		B624C60D2815787900252720 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B624C60C2815787900252720 /* RecipeViewController.swift */; };
 		B6E8C30E2807B1CC00C6BE81 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8C30D2807B1CC00C6BE81 /* CameraViewController.swift */; };
 		B6F8534827FE9A27005821BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F8534727FE9A27005821BB /* AppDelegate.swift */; };
@@ -55,7 +54,6 @@
 		73EC922BEE3F387056FE2F3E /* Pods-MealWise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealWise.release.xcconfig"; path = "Target Support Files/Pods-MealWise/Pods-MealWise.release.xcconfig"; sourceTree = "<group>"; };
 		A663002F2809235B00324B7B /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		A66300312809369900324B7B /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
-		B624C60A281510AD00252720 /* RecipeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAPI.swift; sourceTree = "<group>"; };
 		B624C60C2815787900252720 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
 		B6E8C30D2807B1CC00C6BE81 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		B6F8534427FE9A27005821BB /* MealWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,7 +149,6 @@
 		B6F8534627FE9A27005821BB /* MealWise */ = {
 			isa = PBXGroup;
 			children = (
-				B624C60A281510AD00252720 /* RecipeAPI.swift */,
 				B6F8534727FE9A27005821BB /* AppDelegate.swift */,
 				B6F8534927FE9A27005821BB /* SceneDelegate.swift */,
 				B6F8534D27FE9A27005821BB /* Main.storyboard */,
@@ -431,7 +428,6 @@
 				B6F8534A27FE9A27005821BB /* SceneDelegate.swift in Sources */,
 				A66300302809235B00324B7B /* PostCell.swift in Sources */,
 				A66300322809369900324B7B /* CommentCell.swift in Sources */,
-				B624C60B281510AD00252720 /* RecipeAPI.swift in Sources */,
 				B624C60D2815787900252720 /* RecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,7 @@
 
 ## Overview
 ### Description
-MealWise is an app where users can find recipes, create their own recipes, and post their meals.
+MealWise is an application that provides a platform for people to decide what to eat and share their meals. Through creating a free account, users are able to decide what to eat by using the random food generator, to post their meals, and to view and comment on other users’ posts.
 
 ### App Evaluation
 

@@ -23,10 +23,10 @@ MealWise is an application that provides a platform for people to decide what to
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
-<img src="http://g.recordit.co/FLGR4T5Y5B.gif" width = 250><br>
-<img src="http://g.recordit.co/zv4sMLGBsq.gif" width = 250><br>
-<img src="http://g.recordit.co/0Rfs2gY4Fa.gif" width = 250><br>
-<img src="http://g.recordit.co/HXCA6Pz6V2.gif" width = 250><br>
+<img src="https://github.com/Wei682/Mealwise-part/blob/main/Walkthrough%20videos/Login:Logout.gif" width = 250><br>
+<img src="https://github.com/Wei682/Mealwise-part/blob/main/Walkthrough%20videos/Random%20food.gif" width = 250><br>
+<img src="https://github.com/Wei682/Mealwise-part/blob/main/Walkthrough%20videos/post.gif" width = 250><br>
+<img src="https://github.com/Wei682/Mealwise-part/blob/main/Walkthrough%20videos/comment.gif" width = 250><br>
 
 **Required Must-have Stories**
 
